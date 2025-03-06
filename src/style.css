@@ -1,0 +1,52 @@
+@import "../node_modules/modern-normalize/modern-normalize.css";
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url("photo@2x.png");
+  }
+} */
